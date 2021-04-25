@@ -1,0 +1,12 @@
+logging:
+  level:
+    com:
+      grasshopper:
+        feignretryer:
+          client: debug
+
+feign:
+  client:
+    config:
+      default:
+        loggerLevel: BASIC
